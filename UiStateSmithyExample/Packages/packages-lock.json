@@ -1,5 +1,19 @@
 {
   "dependencies": {
+    "com.cysharp.unitask": {
+      "version": "https://github.com/Cysharp/UniTask.git?path=src/UniTask/Assets/Plugins/UniTask",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "f9fd769be7c634610f2a61aa914a1a55f34740e1"
+    },
+    "com.gamesmithy.commandsmithy": {
+      "version": "https://github.com/GameSmithy/CommandSmithy.git#1.0.1",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "c2a7c81979a689e7672aec5b12ab96f286bce2eb"
+    },
     "com.unity.collab-proxy": {
       "version": "2.3.1",
       "depth": 0,
