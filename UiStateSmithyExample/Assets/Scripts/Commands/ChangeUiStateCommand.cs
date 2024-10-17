@@ -12,15 +12,15 @@ namespace Commands
         private readonly IState nextState;
         private readonly IState currentState;
 
-        [Inject]
-        public ChangeUiStateCommand(UiStateType currentUiStateType, UiStateType nextUiStateType,
-            UiStateProvider uiStateProvider)
-        {
-            nextState = uiStateProvider.GetState(nextUiStateType);
-            currentState = currentUiStateType == UiStateType.None ? null : uiStateProvider.GetState(currentUiStateType);
-
-            Debug.Log($"change state {currentUiStateType} nextState {nextState}");
-        }
+        // [Inject]
+        // public ChangeUiStateCommand(UiStateType currentUiStateType, UiStateType nextUiStateType,
+        //     UiStateProvider uiStateProvider)
+        // {
+        //     nextState = uiStateProvider.GetState(nextUiStateType);
+        //     currentState = currentUiStateType == UiStateType.None ? null : uiStateProvider.GetState(currentUiStateType);
+        //
+        //     Debug.Log($"change state {currentUiStateType} nextState {nextState}");
+        // }
 
         public override async UniTask ExecuteAsync()
         {
@@ -29,8 +29,8 @@ namespace Commands
             await base.ExecuteAsync();
         }
 
-        public class Factory : PlaceholderFactory<UiStateType, UiStateType, ChangeUiStateCommand>
-        {
-        }
+        // public class Factory : PlaceholderFactory<UiStateType, UiStateType, ChangeUiStateCommand>
+        // {
+        // }
     }
 }

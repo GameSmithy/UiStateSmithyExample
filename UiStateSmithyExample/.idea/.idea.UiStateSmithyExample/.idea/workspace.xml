@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8478b503-bf16-4690-b45e-7e9e66f1c949" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Prefabs/Resources/BackgroundUiCanvas.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Prefabs/Resources/BackgroundUiCanvas.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Prefabs/Resources/BottomUiCanvas.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Prefabs/Resources/BottomUiCanvas.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Prefabs/Resources/LoadingUiCanvas.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Prefabs/Resources/LoadingUiCanvas.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Prefabs/Resources/LobbyUiCanvas.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Prefabs/Resources/LobbyUiCanvas.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Prefabs/Resources/MatchUiCanvas.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Prefabs/Resources/MatchUiCanvas.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Prefabs/Resources/SettingsUiCanvas.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Prefabs/Resources/SettingsUiCanvas.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Prefabs/Resources/ShopUiCanvas.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Prefabs/Resources/ShopUiCanvas.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Prefabs/Resources/TopUiCanvas.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Prefabs/Resources/TopUiCanvas.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/UiCanvases/BackgroundUiCanvas.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/UiCanvases/BackgroundUiCanvas.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/UiCanvases/BottomUiCanvas.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/UiCanvases/BottomUiCanvas.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/UiCanvases/CanvasProvider.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/UiCanvases/CanvasProvider.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/UiCanvases/CanvasesTemplates.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/UiCanvases/CanvasesTemplates.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/UiCanvases/LoadingUiCanvas.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/UiCanvases/LoadingUiCanvas.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/UiCanvases/LobbyUiCanvas.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/UiCanvases/LobbyUiCanvas.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/UiCanvases/MatchUiCanvas.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/UiCanvases/MatchUiCanvas.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/UiCanvases/SettingsUiCanvas.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/UiCanvases/SettingsUiCanvas.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/UiCanvases/ShopUiCanvas.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/UiCanvases/ShopUiCanvas.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/UiCanvases/TopUiCanvas.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/UiCanvases/TopUiCanvas.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/UiStates/LoadingGameUiState.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/UiStates/LoadingGameUiState.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/UiStates/LoadingMatchUiState.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/UiStates/LoadingMatchUiState.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/UiStates/LoadingMetaUiState.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/UiStates/LoadingMetaUiState.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/UiStates/LobbyUiState.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/UiStates/LobbyUiState.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/UiStates/MatchUiState.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/UiStates/MatchUiState.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/UiStates/SettingsUiState.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/UiStates/SettingsUiState.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/UiStates/ShopUiState.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/UiStates/ShopUiState.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/UiStates/UiStatesTemplates.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/UiStates/UiStatesTemplates.cs.meta" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Inventory.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/UiCanvases/CanvasProvider.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 5
+}]]></component>
+  <component name="ProjectId" id="2nZju16zfOtuGQqRXkNgSeyyKlB" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "rider.external.source.directories": [
+      "/Users/dmitryturovskiy/Library/Application Support/JetBrains/Rider2023.3/resharper-host/DecompilerCache",
+      "/Users/dmitryturovskiy/Library/Application Support/JetBrains/Rider2023.3/resharper-host/SourcesCache",
+      "/Users/dmitryturovskiy/.local/share/Symbols/src"
+    ]
+  }
+}]]></component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="/Applications/Unity/Hub/Editor/6000.0.16f1/Unity.app/Contents/MacOS/Unity" />
+      <option name="PROGRAM_PARAMETERS" value="-projectPath $PROJECT_DIR$ -debugCodeOptimization" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unit Tests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="/Applications/Unity/Hub/Editor/6000.0.16f1/Unity.app/Contents/MacOS/Unity" />
+      <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath $PROJECT_DIR$ -testResults Logs/results.xml -testPlatform EditMode -debugCodeOptimization" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="projectPathOnTarget" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="projectPathOnTarget" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8478b503-bf16-4690-b45e-7e9e66f1c949" name="Changes" comment="" />
+      <created>1729187710907</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1729187710907</updated>
+      <workItem from="1729187714532" duration="1946000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="Both" />
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+</project>

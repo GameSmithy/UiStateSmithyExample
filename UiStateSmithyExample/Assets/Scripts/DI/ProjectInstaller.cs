@@ -19,7 +19,7 @@ namespace DI
 
             Container.BindFactory<int, AddCoinsCommand, AddCoinsCommand.Factory>();
             Container.BindFactory<GameStateType, GameStateType, ChangeGameStateCommand, ChangeGameStateCommand.Factory>();
-            Container.BindFactory<UiStateType, UiStateType, ChangeUiStateCommand, ChangeUiStateCommand.Factory>();
+            // Container.BindFactory<UiStateType, UiStateType, ChangeUiStateCommand, ChangeUiStateCommand.Factory>();
         }
 
         public override void Start()

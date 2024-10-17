@@ -7,8 +7,8 @@ namespace GameStates
 {
     public partial class LoadingGameState
     {
-        [Inject]
-        private ChangeUiStateCommand.Factory uiCommandFactory;
+        // [Inject]
+        // private ChangeUiStateCommand.Factory uiCommandFactory;
 
         protected override void OnEnter()
         {
@@ -18,7 +18,7 @@ namespace GameStates
 
         private async UniTask ShowUi()
         {
-            await uiCommandFactory.Create(UiStateType.None, UiStateType.LoadingGameUiState).ExecuteAsync();
+            // await uiCommandFactory.Create(UiStateType.None, UiStateType.LoadingGameUiState).ExecuteAsync();
             MoveToMetaGameState();
         }
     }
