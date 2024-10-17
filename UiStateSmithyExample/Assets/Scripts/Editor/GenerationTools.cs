@@ -1,7 +1,8 @@
 using System;
 using System.IO;
+using System.Reflection;
 using GameDevWare.TextTransform;
-// using UI.UiCanvases;
+using UI.UiCanvases;
 using UnityEditor;
 using UnityEngine;
 
@@ -137,40 +138,40 @@ namespace Editor
 
         private static void CreateCanvasPrefab(string canvasName)
         {
-            // var canvasPath = "Assets/Art/Prefabs/Resources/";
-            //
-            // var prefabPath = canvasPath + canvasName + ".prefab";
-            //
-            // if (File.Exists(prefabPath))
-            //     return;
-            //
-            // prefabPath = AssetDatabase.GenerateUniqueAssetPath(prefabPath);
-            //
-            // var basePath = canvasPath + "BaseCanvas.prefab";
-            // var loadAsset = AssetDatabase.LoadAssetAtPath<GameObject>(basePath);
-            //
-            // var dummy = GameObject.Instantiate(loadAsset);
-            //
-            // var uiBaseCanvas = dummy.GetComponent<BaseUiCanvas>();
-            //
-            // GameObject.DestroyImmediate(uiBaseCanvas);
-            //
-            // try {
-            //     var className = "UI.UiCanvases." + canvasName;
-            //     var assembly = Assembly.Load("Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null");
-            //     var type = assembly.GetType(className);
-            //     dummy.AddComponent(type);
-            //
-            //     PrefabUtility.SaveAsPrefabAsset(dummy, prefabPath);
-            //
-            //     AssetDatabase.SaveAssets();
-            //     AssetDatabase.Refresh();
-            // }
-            // catch (Exception e) {
-            //     Debug.LogError(e);
-            // }
-            //
-            // GameObject.DestroyImmediate(dummy);
+            var canvasPath = "Assets/Art/Prefabs/Resources/";
+
+            var prefabPath = canvasPath + canvasName + ".prefab";
+
+            if (File.Exists(prefabPath))
+                return;
+
+            prefabPath = AssetDatabase.GenerateUniqueAssetPath(prefabPath);
+
+            var basePath = canvasPath + "BaseCanvas.prefab";
+            var loadAsset = AssetDatabase.LoadAssetAtPath<GameObject>(basePath);
+
+            var dummy = GameObject.Instantiate(loadAsset);
+
+            var uiBaseCanvas = dummy.GetComponent<BaseUiCanvas>();
+
+            GameObject.DestroyImmediate(uiBaseCanvas);
+
+            try {
+                var className = "UI.UiCanvases." + canvasName;
+                var assembly = Assembly.Load("Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null");
+                var type = assembly.GetType(className);
+                dummy.AddComponent(type);
+
+                PrefabUtility.SaveAsPrefabAsset(dummy, prefabPath);
+
+                AssetDatabase.SaveAssets();
+                AssetDatabase.Refresh();
+            }
+            catch (Exception e) {
+                Debug.LogError(e);
+            }
+
+            GameObject.DestroyImmediate(dummy);
         }
 
         private static void CreateGameStatesFolder()

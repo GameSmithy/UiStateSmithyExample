@@ -1,0 +1,8 @@
+BackgroundUiCanvas #intent (Color color)
+LoadingUiCanvas #intent (ReactiveProperty<int> progress)
+TopUiCanvas #intent (ReactiveProperty<int> currencyAmount)
+LobbyUiCanvas #intent ()
+BottomUiCanvas #intent ()
+SettingsUiCanvas #intent ()
+MatchUiCanvas #intent ()
+ShopUiCanvas #intent ()

@@ -1,0 +1,7 @@
+LoadingGameUiState #routes (LobbyUiState) #canvases (BackgroundUiCanvas,LoadingUiCanvas)
+LobbyUiState #routes (LoadingMatchUiState,SettingsUiState,ShopUiState) #canvases (TopUiCanvas,LobbyUiCanvas,BottomUiCanvas)
+SettingsUiState #routes (LobbyUiState) #canvases (TopUiCanvas,SettingsUiCanvas,BottomUiCanvas)
+LoadingMatchUiState #routes (MatchUiState) #canvases (BackgroundUiCanvas,LoadingUiCanvas)
+MatchUiState #routes (LoadingMetaUiState) #canvases (TopUiCanvas,MatchUiCanvas)
+LoadingMetaUiState #routes (LobbyUiState) #canvases (BackgroundUiCanvas,LoadingUiCanvas)
+ShopUiState #routes (LobbyUiState) #canvases (TopUiCanvas,ShopUiCanvas,BottomUiCanvas)
