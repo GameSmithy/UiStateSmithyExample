@@ -8,11 +8,32 @@
       "hash": "f9fd769be7c634610f2a61aa914a1a55f34740e1"
     },
     "com.gamesmithy.commandsmithy": {
-      "version": "https://github.com/GameSmithy/CommandSmithy.git#1.0.1",
+      "version": "https://github.com/GameSmithy/CommandSmithy.git#1.0.2",
       "depth": 0,
       "source": "git",
       "dependencies": {},
-      "hash": "c2a7c81979a689e7672aec5b12ab96f286bce2eb"
+      "hash": "e4660828d759ec1e50ebe1549ad10e7e86030697"
+    },
+    "com.gamesmithy.statesmithy": {
+      "version": "https://github.com/GameSmithy/StateSmithy.git#1.0.0",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "42ba9136d3e0d565a0e8e752d6e31bd2be1ff7c0"
+    },
+    "com.gamesmithy.uistatesmithy": {
+      "version": "https://github.com/GameSmithy/UiStateSmithy.git#1.0.1",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "e94be5865d1b7f93ed3376443ca2f73d81d91cd9"
+    },
+    "com.unidi.unidi": {
+      "version": "https://github.com/UniDi/UniDi.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "63daabd9ebc769bd23b7b60718466bd58b963c35"
     },
     "com.unity.collab-proxy": {
       "version": "2.3.1",
@@ -138,16 +159,6 @@
         "com.unity.modules.ui": "1.0.0",
         "com.unity.modules.imgui": "1.0.0"
       }
-    },
-    "com.unity.visualscripting": {
-      "version": "1.9.4",
-      "depth": 0,
-      "source": "registry",
-      "dependencies": {
-        "com.unity.ugui": "1.0.0",
-        "com.unity.modules.jsonserialize": "1.0.0"
-      },
-      "url": "https://packages.unity.com"
     },
     "com.unity.modules.ai": {
       "version": "1.0.0",
